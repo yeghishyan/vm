@@ -35,7 +35,7 @@
 	
 	Func f1:				
 			PUSHSF
-	label:	MOVR DW R32, R0
+	label:		MOVR DW R32, R0
 			CMP R16, R32
 			JUMPA skip
 			MOVR R32, R0
